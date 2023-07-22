@@ -133,3 +133,30 @@ header > ul {
   font-size: 18px;
   color: grey;
 }
+
+/* SECTION THREE */
+
+.section-three {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 128px 384px 128px 384px;
+}
+
+.section-three > .inspiring-quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.section-three > .inspiring-quote > .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.section-three > .inspiring-quote > .byline {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
