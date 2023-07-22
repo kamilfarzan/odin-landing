@@ -24,6 +24,7 @@ button {
   color: white;
   font-size: 20px;
   background-color: var(--blue);
+  cursor: pointer;
 }
 
 a {
@@ -48,7 +49,11 @@ header > ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 16px;
+  gap: 64px;
+}
+
+header > ul > li > a {
+    text-decoration: none;
 }
 
 /* SECTION ONE */
@@ -84,6 +89,7 @@ header > ul {
 }
 
 .section-one > .one-image > img {
+    border-radius: 10px;
   width: inherit;
 }
 
@@ -112,7 +118,7 @@ header > ul {
 .section-two > div {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   gap: 64px;
 }
 
@@ -206,4 +212,8 @@ header > ul {
 footer {
     background-color: var(--light-black);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
